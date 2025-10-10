@@ -14,7 +14,8 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: var(--white-color);
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -299,7 +300,7 @@ header {
 /*  Hero section ends here  */
 
 
-/* Products Section Base */
+/* Products Section starts here */
 #products {
     display: grid;
     gap: 10px;
@@ -388,9 +389,6 @@ header {
 }
 
 
-
-
-
 /* Media Queries for tablet  */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -471,12 +469,5 @@ header {
     }
 
 }
-
-
-/*  Products section starts here */
-
-
-
-
 
 /*  Products section ends here  */
