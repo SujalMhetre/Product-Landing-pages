@@ -47,7 +47,9 @@ It focuses on building smooth transitions, centered animations, and clean UI usi
 
 ## 🎬 Preview
 
-![Apple.com [Clone] Screenshot](screenshot.png)
+![Mobile View](Assets/screenshot/mobile.png)
+![Tablet View](Assets/screenshot/tablet.png)
+![Desktop View](Assets/screenshot/desktop.png)
 
 ---
 
