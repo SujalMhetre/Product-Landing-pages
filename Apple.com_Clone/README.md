@@ -47,8 +47,8 @@ It focuses on building smooth transitions, centered animations, and clean UI usi
 
 ## 🎬 Preview
 
-![Mobile View](Assets/screenshot/mobile.png)
-![Tablet View](Assets/screenshot/tablet.png)
+![Mobile View](Assets/Screenshot/mobile.png)
+![Tablet View](Assets/Screenshot/tablet.png)
 ![Desktop View](Assets/screenshot/desktop.png)
 
 ---
