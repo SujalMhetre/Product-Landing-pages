@@ -193,7 +193,7 @@ header {
     font-size: 1.1rem;
 }
 
-#hero-2-button {
+.hero-2-button {
     margin-top: 10px;
     font-size: 0.9rem;
 }
@@ -240,7 +240,7 @@ header {
         font-size: 1.8rem;
     }
 
-    #hero-2 button {
+    .hero-2 button {
         font-size: 1.3rem;
     }
 }
@@ -291,7 +291,7 @@ header {
         font-size: 1.7rem;
     }
 
-    #hero-2 button {
+    .hero-2 button {
         font-size: 1rem;
     }
 }
@@ -471,3 +471,258 @@ header {
 }
 
 /*  Products section ends here  */
+
+/* Slider Section starts here */
+#slider {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#slider-container {
+    margin: 10px;
+    background-color: var(--white-color);
+    display: flex;
+    position: relative;
+    gap: 20px;
+    transform: translateX(calc(50% - 137.5px));
+    animation: slide 25s linear infinite;
+}
+
+.slide {
+    height: 500px;
+    flex: 0 0 275px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.388);
+}
+
+.slide-content {
+    text-align: center;
+    color: white;
+}
+
+.slide-content h3 {
+    font-size: 1.5rem;
+}
+
+.slide-content button {
+    background-color: var(--white-color);
+    color: black;
+    margin-top: 10px;
+    border: 0.5px solid black;
+}
+
+.slide-image img {
+    max-width: 100px;
+}
+
+.slide1 {
+    background-image: url(Assets/appletv_images/appletv1_img.jpg);
+}
+
+.slide2 {
+    background-image: url(Assets/appletv_images/appletv2_img.jpg);
+}
+
+.slide3 {
+    background-image: url(Assets/appletv_images/appletv3_img.jpg);
+}
+
+.slide4 {
+    background-image: url(Assets/appletv_images/appletv4_img.jpg);
+}
+
+.slide5 {
+    background-image: url(Assets/appletv_images/appletv5_img.jpg);
+}
+
+.slide6 {
+    background-image: url(Assets/appletv_images/appletv6_img.jpg);
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(calc(50% - 137.5px));
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(calc(50% - 137.5px));
+    }
+}
+
+/* media Queries for small phones */
+@media (max-width:375px) {
+
+    #slider-container {
+        animation: slide-small 25s linear infinite;
+    }
+
+    @keyframes slide-small {
+        0% {
+            transform: translateX(calc(50%));
+        }
+
+        100% {
+            transform: translateX(calc(-230%));
+        }
+    }
+}
+
+/* Media Queries for tablet  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #slider {
+        justify-content: baseline;
+    }
+
+    #slider-container {
+        animation: slide 55s linear infinite;
+    }
+
+    .slide {
+        height: 368px;
+        flex: 0 0 690px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 15px;
+        background-size: cover;
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+
+    .slide-image img {
+        display: none;
+    }
+
+    .slide1 {
+        background-image: url(Assets/appletv_images/new1_img.jpg);
+    }
+
+    .slide2 {
+        background-image: url(Assets/appletv_images/new2_img.jpg);
+    }
+
+    .slide3 {
+        background-image: url(Assets/appletv_images/new3_img.jpg);
+    }
+
+    .slide4 {
+        background-image: url(Assets/appletv_images/new4_img.jpg);
+    }
+
+    .slide5 {
+        background-image: url(Assets/appletv_images/new5_img.jpg);
+    }
+
+    .slide6 {
+        background-image: url(Assets/appletv_images/new6_img.jpg);
+    }
+
+    .slide-content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 5px;
+    }
+
+    .slide-content h3 {
+        display: none;
+    }
+
+    .slide-content p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    .slide-image img {
+        max-width: 80px;
+    }
+
+}
+
+
+
+/* Media Queries for desktop */
+
+@media (min-width: 1025px) {
+
+    #slider-container {
+        animation: slide 75s linear infinite;
+    }
+
+    .slide {
+        height: 668px;
+        flex: 0 0 1250px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 15px;
+        background-size: cover;
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+
+    .slide-image img {
+        max-width: 100px;
+    }
+
+    .slide1 {
+        background-image: url(Assets/appletv_images/new1_img.jpg);
+    }
+
+    .slide2 {
+        background-image: url(Assets/appletv_images/new2_img.jpg);
+    }
+
+    .slide3 {
+        background-image: url(Assets/appletv_images/new3_img.jpg);
+    }
+
+    .slide4 {
+        background-image: url(Assets/appletv_images/new4_img.jpg);
+    }
+
+    .slide5 {
+        background-image: url(Assets/appletv_images/new5_img.jpg);
+    }
+
+    .slide6 {
+        background-image: url(Assets/appletv_images/new6_img.jpg);
+    }
+
+    .slide-content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 35px;
+    }
+
+    .slide-content p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    .slide-image img {
+        display: none;
+    }
+
+}
+
+
+/*  Slider section ends here  */
