@@ -1,5 +1,6 @@
 :root {
     --search-btn-color: #f8bd19;
+    --header-color: #131921;
 }
 
 * {
@@ -32,9 +33,9 @@ button {
 /* header section starts here */
 header {
     width: 100%;
-    background-color: #131921;
+    background-color: var(--header-color);
     padding: 10px;
-    color: white;
+    color: #c4c4c4;
     position: fixed;
     top: 0;
     left: 0;
@@ -147,7 +148,7 @@ header {
 
 /* for tablet */
 /* Media Queries for tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
 
     #mobile-header-top,
     #mobile-header-search,
@@ -228,10 +229,12 @@ header {
 
     #nav-tools i {
         font-size: 25px;
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
     }
 
     #nav-tools i:hover {
-        font-size: 35px;
+        transform: scale(1.5);
     }
 
     #nav-tools div:hover {
@@ -243,97 +246,15 @@ header {
 /* Media Queries for Desktop */
 @media (min-width: 1025px) {
 
-    #mobile-header-top,
-    #mobile-header-search,
-    #mobile-header-links {
-        display: none;
-    }
-
     header {
-        display: flex;
-        align-items: center;
         gap: 20px;
         padding: 10px 20px;
     }
 
-    #tablet-div-logo {
-        display: flex;
-    }
-
-    #tablet-div-country {
-        display: flex;
-        align-items: flex-end;
-    }
-
-    #tablet-div-country p {
-        font-size: 0.8rem;
-    }
-
-    #tablet-div-country h1 {
-        font-size: 1rem;
-    }
-
-    #tablet-div-search {
-        flex: 1;
-        display: flex;
-        max-width: 2000px;
-    }
-
-    .tablet-div-input {
-        padding: 10px 5px;
-        border: none;
-        outline: none;
-        width: 100%;
-    }
-
-    .tablet-div-button {
-        padding: 10px 10px;
-        border: none;
-        outline: none;
-        background-color: var(--search-btn-color);
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-    }
-
-    #search-all-button button {
-        padding: 13px 10px;
-        border: none;
-        outline: none;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
-
-    .tablet-div-button i {
-        font-size: 15px;
-    }
-
     #nav-tools {
-        display: flex;
-        align-items: center;
         gap: 20px;
     }
 
-    #nav-tools p {
-        font-size: 0.8rem;
-    }
-
-    #nav-tools h1 {
-        font-size: 1rem;
-    }
-
-    #nav-tools i {
-        display: inline-block;
-        font-size: 25px;
-        transition: all 0.3s ease-in-out;
-    }
-
-    #nav-tools i:hover {
-        transform: scale(1.5);
-    }
-
-    #nav-tools div:hover {
-        border-bottom: 1px solid white;
-    }
 }
 
 /* header section ends here */
