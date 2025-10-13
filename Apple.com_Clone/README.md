@@ -1,32 +1,32 @@
-# 🍎 Apple.com [website clone] 
+# 🍎 Apple.com [Website Clone]  
 
-This project is a **responsive Apple.com official website**, created as part of my **Frontend Practice and animation learning journey**.  
-It focuses on building smooth transitions, centered animations, and clean UI using **pure HTML and CSS**.
+This project is a **responsive clone of Apple’s official website**, created as part of my **Frontend Practice and Animation Learning Journey**.  
+It focuses on smooth transitions, centered animations, and a clean, modern UI built with **pure HTML and CSS**.  
 
 ---
 
-## 🚀 Features
+## 🚀 Features  
 
 - ✅ Fully responsive layout across all screen sizes  
 - ✅ Auto-playing slider animation (pure CSS, no JS used)  
 - ✅ Each slide centers smoothly before switching to the next  
 - ✅ Hover effects on buttons and slide content  
-- ✅ Designed with a **modern Apple TV-inspired look**  
-- ✅ Clean layout structure using **Flexbox and media queries**
+- ✅ Modern, Apple-inspired minimalistic design  
+- ✅ Built with **Flexbox** and **media queries** for structure and responsiveness  
 
 ---
 
-## 🧠 What I Learned
+## 🧠 What I Learned  
 
-- Building **sliders and animations using only CSS keyframes**  
-- How to manage **transform and translate positions** dynamically  
-- Responsive animation alignment for multiple screen widths  
-- Styling slides with **overlayed text and centered content**  
-- Importance of using **`overflow`, `translate`, and smooth transitions** effectively  
+- Creating **sliders and animations using only CSS keyframes**  
+- Managing **transform** and **translate** for precise positioning  
+- Aligning animations responsively for different screen widths  
+- Styling slides with **overlayed text and visual balance**  
+- Mastering **overflow, transitions, and keyframe timing** for smooth flow  
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used  
 
 - **HTML5**  
 - **CSS3 (Flexbox, Animations, Media Queries)**  
@@ -35,28 +35,36 @@ It focuses on building smooth transitions, centered animations, and clean UI usi
 
 ---
 
----
-
-## 📂 Project Assets
+## 📂 Project Assets  
 
 - All **images, icons, and screenshots** are stored in the `assets` folder  
-- Original Apple.com screenshots for **mobile, tablet, and desktop** are included for reference  
-- This folder contains all resources needed to view or replicate the project layout.  
+- Includes **original Apple.com screenshots** for mobile, tablet, and desktop reference  
+- Contains every resource needed to view or replicate the full layout  
 
 ---
 
-## 🎬 Preview
+## 🎬 Preview  
 
-![Mobile View](Assets/Screenshot/mobile.png)
-![Tablet View](Assets/Screenshot/tablet.png)
+--Mobile View :
+![Mobile View](Assets/Screenshot/mobile.png)  
+
+--Tablet View :
+![Tablet View](Assets/screenshot/tablet.png)  
+
+--Desktop View :
 ![Desktop View](Assets/Screenshot/desktop.png)
 
 ---
 
-## 🚀 Getting Started
+## 🌐 Live Demo  
+🔗 [View Live Project Here](https://sujalmhetre.github.io/Apple.com-Clone/)
 
-To view the project locally:
+
+
+## 🚀 Getting Started  
+
+To view the project locally:  
 
 ```bash
-git clone https://github.com/SujalMhetre/Product-Landing-pages/Apple.com_clone.git
-cd Product-Landing-pages/Apple.com_clone
+git clone https://github.com/SujalMhetre/Apple.com-Clone.git
+cd Apple.com-Clone
