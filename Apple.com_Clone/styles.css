@@ -396,8 +396,8 @@ header {
 }
 
 .product:hover {
-    transform: scale(1.02);
-    transition: transform 0.4s ease;
+    transform: scale(1);
+    transition: transform 1s ease-in-out;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
