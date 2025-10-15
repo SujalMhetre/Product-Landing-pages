@@ -3,6 +3,7 @@
     --header-color: #131921;
     --black-color: #000;
     --white-color: #fff;
+    --nav-color:#2e354c;
 }
 
 * {
@@ -36,7 +37,7 @@ button {
 /* header section starts here */
 header {
     width: 100%;
-    background-color: var(--header-color);
+    background-color: var(--nav-color);
     padding: 10px;
     color: #c4c4c4;
 }
@@ -159,6 +160,8 @@ header {
         display: flex;
         align-items: center;
         gap: 10px;
+        background-color: var(--header-color);
+        color:var(--white-color);
     }
 
     #tablet-div-logo {
@@ -263,11 +266,12 @@ header {
     display: none;
 }
 
+/* media Queries for desktop and tablet */
 @media (min-width: 768px) {
     #nav-links {
         display: block;
         width: 100%;
-        background-color: var(--header-color);
+        background-color: var(--nav-color);
         color: var(--white-color);
         padding: 10px 20px;
     }
@@ -288,6 +292,7 @@ header {
     display: none;
 }
 
+/* media Queries for desktop and tablet */
 @media (min-width: 768px) {
     #hero-desktop {
         width: 100%;
@@ -298,7 +303,10 @@ header {
 
     #hero-desktop img {
         width: 100%;
-        mask-image: linear-gradient(to bottom, --black-color 50%, transparent 100%);
+        mask-image: linear-gradient(to bottom, #000 50%, transparent 100%);
+        mask-size: cover;
+        mask-repeat: no-repeat;
+        max-width: 1600px;
     }
 }
 
@@ -317,6 +325,7 @@ header {
     display: none;
 }
 
+/* media Queries for tablet */
 @media (min-width: 768px) and (max-width:1024px) {
 
     main {
@@ -340,12 +349,13 @@ header {
     }
 }
 
+/* media Queries for desktop */
 @media (min-width:1025px) {
 
     main {
         width: 100%;
         position: absolute;
-        top: 355px;
+        top: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -362,6 +372,7 @@ header {
         color: var(--black-color);
         text-align: center;
         padding: 10px;
+        max-width: 1500px;
     }
 
 }
@@ -370,18 +381,19 @@ header {
 
 
 /* product container starts here */
-#product-grid-container {
+.product-grid-container {
     display: none;
 }
 
+/* media Queries for tablet */
 @media (min-width: 768px) and (max-width:1024px) {
     main {
         flex-direction: column;
         gap: 20px;
-        background-color: rgba(214, 214, 214, 0.769);
+
     }
 
-    #product-grid-container {
+    .product-grid-container {
         width: 95%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -397,7 +409,7 @@ header {
         gap: 15px;
         padding: 10px;
         transition: all 0.5s ease-in-out;
-         box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
     }
 
     .product h2 {
@@ -418,6 +430,8 @@ header {
 
     .product-img img {
         width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
     }
 
     .product-img p {
@@ -434,7 +448,7 @@ header {
     }
 
     .product:hover {
-        transform: scale(0.98);
+        transform: scale(1.02);
     }
 
     .product-img p:hover {
@@ -442,18 +456,20 @@ header {
     }
 }
 
+/* media Queries for desktop */
 @media (min-width:1025px) {
     main {
         flex-direction: column;
         gap: 20px;
-        background-color: rgba(214, 214, 214, 0.769);
+
     }
 
-    #product-grid-container {
+    .product-grid-container {
         width: 95%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+        max-width: 1500px;
     }
 
     .product {
@@ -486,6 +502,7 @@ header {
 
     .product-img img {
         width: 100%;
+         object-fit: cover;
     }
 
     .product-img p {
@@ -498,7 +515,7 @@ header {
     }
 
     .product:hover {
-        transform: scale(0.98);
+         transform: scale(1.02);
     }
 
     .product-img p:hover {
@@ -510,9 +527,43 @@ header {
     }
 }
 
+/* product container ends here */
 
 
-/* product container starts here */
+/* product-slider starts here */
+.product-slider {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .product-slider {
+        display: block;
+        width: 95%;
+        background-color: var(--white-color);
+        padding: 10px;
+        box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+        max-width: 1500px;
+    }
+
+    .slider-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        overflow-y: hidden;
+        scrollbar-width: none;
+    }
+
+    .slider-img img {
+        max-width: 12%;
+    }
+     .slider-img img:hover{
+        transform: scale(1.05);
+     }
+}
+
+/*product-slider ends here  */
 
 /* for desktop and tablet */
 
