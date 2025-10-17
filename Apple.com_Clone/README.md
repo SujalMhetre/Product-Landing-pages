@@ -45,13 +45,13 @@ It focuses on smooth transitions, centered animations, and a clean, modern UI bu
 
 ## 🎬 Preview  
 
---Mobile View :
+### Mobile View :
 ![Mobile View](Assets/Screenshot/mobile.png)  
 
---Tablet View :
+### Tablet View :
 ![Tablet View](Assets/screenshot/tablet.png)  
 
---Desktop View :
+### Desktop View :
 ![Desktop View](Assets/Screenshot/desktop.png)
 
 ---
@@ -66,5 +66,5 @@ It focuses on smooth transitions, centered animations, and a clean, modern UI bu
 To view the project locally:  
 
 ```bash
-git clone https://github.com/SujalMhetre/Apple.com-Clone.git
-cd Apple.com-Clone
+git clone https://github.com/SujalMhetre/Product-Landing-pages/Apple.com_Clone.git
+cd Apple.com_Clone
