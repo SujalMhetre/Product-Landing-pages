@@ -36,10 +36,13 @@ This project is a **fully responsive clone of Amazon's landing page**, built usi
 ## 📂 Project Assets  
 
 - All **images, icons, and screenshots** are stored in the `assets` folder  
-- Includes **original Apple.com screenshots** for mobile, tablet, and desktop reference  
+- Includes **original Amazon.com screenshots** for mobile, tablet, and desktop reference  
 - Contains every resource needed to view or replicate the full layout  
 
 ---
+
+## 🌐 Live Demo  
+🔗 [View Live Project Here]()
 
 ---
 
