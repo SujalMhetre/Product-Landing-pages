@@ -57,7 +57,7 @@ It focuses on smooth transitions, centered animations, and a clean, modern UI bu
 ---
 
 ## 🌐 Live Demo  
-🔗 [View Live Project Here](https://sujalmhetre.github.io/Apple.com-Clone/)
+🔗 [View Live Project Here](https://sujalmhetre.github.io/Apple-Inspired-Landing-Page/)
 
 
 
