@@ -42,7 +42,7 @@ This project is a **fully responsive clone of Amazon's landing page**, built usi
 ---
 
 ## 🌐 Live Demo  
-🔗 [View Live Project Here](https://sujalmhetre.github.io/Amazon.com-Clone/)
+🔗 [View Live Project Here](https://sujalmhetre.github.io/Amazon-Inspired-Landing-Page/)
 
 ---
 
