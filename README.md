@@ -10,14 +10,17 @@ Each page is recreated from real-world brand websites to sharpen my layout, resp
 1. **Amazon Landing Page Clone**
    - Focus: Multi-section layout, navbar, product cards, responsive grid system.
    - Tech: HTML5, CSS3 (Flexbox + Media Queries)
+   🔗 **Live Demo:** [View on GitHub Pages](https://sujalmhetre.github.io/Amazon-Inspired-Landing-Page/)
 
 2. **Apple Landing Page Clone**
    - Focus: Elegant layout, use of whitespace, section-based design.
    - Tech: HTML5, CSS3 (Grid + Transitions)
+   🔗 **Live Demo:** [View on GitHub Pages](https://sujalmhetre.github.io/Apple-Inspired-Landing-Page/)
    
-3. **Tesla Landing Page Clone**
-   - Focus: Full-screen hero sections, modern typography, minimalistic design.
-   - Tech: HTML5, CSS3 (Flexbox + Positioning)
+3. **Magazine Landing Page**
+   - Focus: A smooth-scrolling, color-changing magazine,each scroll moves smoothly to the next magazine issue.
+   - Tech: HTML5, CSS3 (Flexbox + Positioning),JavaScript
+   🔗 **Live Demo:** [View on GitHub Pages](https://sujalmhetre.github.io/Magazine-Landing-Page/)
 
 
 ---
@@ -25,6 +28,7 @@ Each page is recreated from real-world brand websites to sharpen my layout, resp
 ## 🛠️ Built With
 - HTML5  
 - CSS3 (Flexbox, Grid, Media Queries)
+- JavaScript
 - Responsive Design Principles
 
 ---
